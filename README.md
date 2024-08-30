@@ -14,7 +14,7 @@ Should you find an error or improve anything — whether in the config or in the
 - [Table of Content](#Table-of-Content)
 - [Device Information](#Device-Information)
 - [Whats working](#Whats-working)
-    - [CPU](#cpu)
+    - [CPU](#CPU)
 
 </details>
 
@@ -42,12 +42,12 @@ Should you find an error or improve anything — whether in the config or in the
 </details>
 
 <details>
-<summary><strong>Whats working</strong></summary>
+<summary><strong>Whats working ✅</strong></summary>
 </br>
 
-## Whats Working
+## Whats Working ✅
 
-### CPU
+### CPU 🧠
 
 Work fine, thanks to `CPU friend and CPU FriendFriend`, Patched to 0.8 Ghz (Min) - 2.4 Ghz (Max)
 Using CPU Friend data provider on lowest power consumsion.
@@ -57,19 +57,23 @@ on the efi, i insert the `Performance profile` as default<br>
 if you want to change the power setting,<br>
 i will give the further assistance on the "other tweaks" section
 
-### Battery 
+### Battery 🔋
 
 The battery presentage is function normally
 
-### USB
+### Trackpad and touchscreen ✍️
+
+Both works great with gesture support
+
+### USB ♆
 
 USB Ports Patching with `USBMap.kext` , everything works fine, no serious issue with USB
 
-### Ethernet
+### Ethernet 📶
 
 Functioning normally. thanks to `IntelMausi.kext`
 
-### Display
+### Display 🖥️
 
 The model of Integrated Graphics is `Intel UHD Graphics 620`, faked to `Intel UHD Graphics 630 (Mobile) `.
 
@@ -77,42 +81,48 @@ The HDMI is attached with `Intel UHD Graphics 630` and it's functioning normally
 
 Both USB-C is also work as Display Out (like HDMI), which utilize Display Port(DP) function, You can use it as another option for display out, you might need a supported dongle or supported Type-C cable 
 
-### Audio
+### Audio 🔊
 thanks to AppleALC with `layout-id: 11`. works normally. Support Dolby Audio.
 
-### Keyboard
+### Keyboard ⌨️
 
 Functioning normally except the <kbd>Insert</kbd> , which is not presented on Magic Keyboard.
 
-#### SSD
+#### SSD 💾
 
-NVMe is functioning normally.
+NVMe is functioning normally.<br>
+please check your ssd, if it using samsung pm981/pm981a, you have to change it first before installing macOS, previously my laptop was using it, and i cant even install macOS, it cause kernel panic. 
 
-### Bluetooth
 
-Bluetooth functioning partially<br>
-There is some issue if you use `Airportitlwm.kext` as the wifi kext
-but if you are using `itlwm.kext and Heliport.app` it will no issue
+### Intel Bluetooth and Wi-Fi 🛜
 
-### Wireless-Card
-
-Functioning normally. <br>
-if you are using `Airportitlwm.kext`, it will cause an issue, the wifi speed will drops whenever connected to the bluetooth device, and hard to connect BT device when you are connected to 2.4Ghz Wi-Fi<br>
+Bluetooth functioning partially, the Wi-Fi is also work, but with some issue <br>
+if you are using `Airportitlwm.kext`, the wifi speed will drops whenever connected to the bluetooth device, and It's hard to connect a Bluetooth device when you're on 2.4 GHz Wi-Fi.<br>
 highly recommend for you to use `itlwm.kext and Heliport.app`
 
-### Headphone/mic combo
+### Headphone/mic combo 🎧
 
 Functioning normally. if you facing trouble please read `post install`
+
+### Camera 📷
+
+Function normally
 
 ### Other
 
 #### AirPlay
 working on sonoma, but somehow not working on ventura
+maybe intel wifi problem
 #### Handoff
 same `apple id` is required
 
-## What-is-not-working
+## What is not working
 
-- Continuity Camera fail to work properly, but Handoff works, and Airdrops can achieve one-way transmission from computer to iphone
+- Continuity Camera: no way with intel Wi-Fi card
+- Airdrops: no way with intel Wi-Fi card
+- fingerprint sensor: no support
+- face id: no implementation on native Mac
+- Pen: when i activate the touchscreen, i lost the pen compatibility, but i prefer with touchscreen, because, when in the macOS The pen losing presure control, make it useless
+
 
 </details>
