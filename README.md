@@ -40,6 +40,10 @@ Should you find an error or improve anything — whether in the config or in the
 
 </details>
 
+<details>
+<summary><strong>Whats working</strong></summary>
+</br>
+
 ## Whats Working
 
 ### CPU
@@ -52,3 +56,5 @@ if you want to change the power setting,<br>
 i will give the further assistance on the "other tweaks" section
 
 ### 
+
+</details>
