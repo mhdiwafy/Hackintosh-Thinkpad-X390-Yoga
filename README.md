@@ -11,10 +11,10 @@ Should you find an error or improve anything — whether in the config or in the
 
 ## Table of Content
 - [Hackintosh-Thinkpad-X390-Yoga](#Hackintosh-Thinkpad-X390-Yoga)
-- [Table of Content](##Table-of-Content)
-- [Device Information](##Device-Information)
-- [Whats working](##Whats-working)
-    - [CPU] 
+- [Table of Content](#Table-of-Content)
+- [Device Information](#Device-Information)
+- [Whats working](#Whats-working)
+    - [CPU](#cpu)
 
 </details>
 
