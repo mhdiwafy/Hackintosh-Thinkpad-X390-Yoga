@@ -10,21 +10,19 @@ Should you find an error or improve anything — whether in the config or in the
 </br>
 
 ## Table of Content📖
-- [Hackintosh-Thinkpad-X390-Yoga](#Hackintosh-Thinkpad-X390-Yoga)
-- [Table of Content](#Table-of-Content)
 - [Device Information](#Device-Information)
 - [Whats working](#Whats-working)
-    - [CPU](#CPU)
+    - [CPU](#CPU-🧠)
 
 </details>
 
 ## Introduction✨
 
 <details>  
-<summary><strong>Device Information💻</strong></summary>
+<summary><strong>Device Information</strong></summary>
 </br>
 
-## Device Information
+## Device Information 💻
 | Specifications | Details |
 |:---|:---|
 | Computer Model | ThinkPad X390 Yoga |
@@ -42,7 +40,7 @@ Should you find an error or improve anything — whether in the config or in the
 </details>
 
 <details>
-<summary><strong>Whats working ✅</strong></summary>
+<summary><strong>Whats working</strong></summary>
 </br>
 
 ## Whats Working ✅
