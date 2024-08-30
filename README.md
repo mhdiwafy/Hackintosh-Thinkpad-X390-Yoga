@@ -49,7 +49,7 @@ Should you find an error or improve anything — whether in the config or in the
 
 ### CPU
 
-Work fine, thanks to CPU friend and CPU FriendFriend, Patched to 0.8 Ghz (Min) - 2.4 Ghz (Max)
+Work fine, thanks to `CPU friend and CPU FriendFriend`, Patched to 0.8 Ghz (Min) - 2.4 Ghz (Max)
 Using CPU Friend data provider on lowest power consumsion.
 For me, no serious Performance Effect on this setting<br>
 Great for Daily usage, such as office, sone video editing, graphic design, some multitask, of course browsing.<br>
@@ -63,9 +63,39 @@ The battery presentage is function normally
 
 ### USB
 
-USB Ports Patching with USBMap.kext , everything works fine, no serious issue with USB
+USB Ports Patching with `USBMap.kext` , everything works fine, no serious issue with USB
 
 ### Ethernet
 
-Functioning normally. thanks to 'IntelMausi.kext'
+Functioning normally. thanks to `IntelMausi.kext`
+
+### Display
+
+The model of Integrated Graphics is `Intel UHD Graphics 620`, faked to `Intel UHD Graphics 630 (Mobile) `.
+
+The HDMI is attached with `Intel UHD Graphics 630` and it's functioning normally. `2K@60Hz` & `4K@30Hz` are supported.
+
+Both USB-C is also work as Display Out (like HDMI), which utilize Display Port(DP) function, You can use it as another option for display out, you might need a supported dongle or supported Type-C cable 
+
+### Audio
+thanks to AppleALC with `layout-id: 11`. works normally. Support Dolby Audio.
+
+### Keyboard
+
+Functioning normally except the <kbd>Insert</kbd> , which is not presented on Magic Keyboard.
+
+#### SSD
+
+NVMe is functioning normally.
+
+### Bluetooth
+
+Bluetooth functioning partially
+There is some issue if you use `Airportitlwm.kext` as the wifi kext
+but if you are using `itlwm.kext and Heliport.app` it will no issue
+
+### Wireless-Card
+
+Functioning normally. 
+
 </details>
