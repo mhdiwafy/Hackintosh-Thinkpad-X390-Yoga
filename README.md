@@ -1,15 +1,15 @@
 # Hackintosh-Thinkpad-X390-Yoga
 
-**❗️❗️DISCLAIMER❗️❗️:**<br>
+**❗️❗️DISCLAIMER❗️❗️**<br>
 Read the entire README before you start.
 The developers are not responsible for any damages you may cause.
 Should you find an error or improve anything — whether in the config or in the documentation — please consider opening an issue or pull request.
 
 <details>  
-<summary><strong>Table of Content</strong></summary>
+<summary><strong>Table of Content 📖</strong></summary>
 </br>
 
-## Table of Content
+## Table of Content📖
 - [Hackintosh-Thinkpad-X390-Yoga](#Hackintosh-Thinkpad-X390-Yoga)
 - [Table of Content](#Table-of-Content)
 - [Device Information](#Device-Information)
@@ -18,10 +18,10 @@ Should you find an error or improve anything — whether in the config or in the
 
 </details>
 
-## Introduction
+## Introduction✨
 
 <details>  
-<summary><strong>Device Information</strong></summary>
+<summary><strong>Device Information💻</strong></summary>
 </br>
 
 ## Device Information
@@ -90,12 +90,29 @@ NVMe is functioning normally.
 
 ### Bluetooth
 
-Bluetooth functioning partially
+Bluetooth functioning partially<br>
 There is some issue if you use `Airportitlwm.kext` as the wifi kext
 but if you are using `itlwm.kext and Heliport.app` it will no issue
 
 ### Wireless-Card
 
-Functioning normally. 
+Functioning normally. <br>
+if you are using `Airportitlwm.kext`, it will cause an issue, the wifi speed will drops whenever connected to the bluetooth device, and hard to connect BT device when you are connected to 2.4Ghz Wi-Fi<br>
+highly recommend for you to use `itlwm.kext and Heliport.app`
+
+### Headphone/mic combo
+
+Functioning normally. if you facing trouble please read `post install`
+
+### Other
+
+#### AirPlay
+working on sonoma, but somehow not working on ventura
+#### Handoff
+same `apple id` is required
+
+## What-is-not-working
+
+- Continuity Camera fail to work properly, but Handoff works, and Airdrops can achieve one-way transmission from computer to iphone
 
 </details>
