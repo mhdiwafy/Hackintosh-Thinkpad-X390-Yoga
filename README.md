@@ -1,11 +1,10 @@
 # Hackintosh-Thinkpad-X390-Yoga
 
-**DISCLAIMER:**<br>
+**❗️❗️DISCLAIMER❗️❗️:**<br>
 Read the entire README before you start.
 The developers are not responsible for any damages you may cause.
 Should you find an error or improve anything — whether in the config or in the documentation — please consider opening an issue or pull request.
 
-## Introduction
 <details>  
 <summary><strong>Table of Content</strong></summary>
 </br>
@@ -18,6 +17,8 @@ Should you find an error or improve anything — whether in the config or in the
     - [CPU] 
 
 </details>
+
+## Introduction
 
 <details>  
 <summary><strong>Device Information</strong></summary>
