@@ -37,7 +37,7 @@ Should you find an error or improve anything — whether in the config or in the
 | Ethernet |  Intel(R) Ethernet Connection (6) I219-V |
 | Sound Card | Intel Intel Smart Sound Technology Audio Controller (layout-id: 11) |
 | Wireless Card |  Intel(R) Wireless-AC 9560 160MHz |
-| I/O |1xUSB-C Thunderbolt 3, 1xUSB 3.1 gen 1(type-c), 2xUSB 3.1 gen 1, MicroSD card reader, HDMI 1.4, Headphone/mic combo |
+| I/O |1xUSB-C Thunderbolt 3, 1xUSB 3.1 gen 1(type-c), 2xUSB 3.1 gen 1, MicroSD card reader, HDMI 1.4, 3.5mm Headphone jack/mic combo |
 
 </details>
 
@@ -52,10 +52,20 @@ Should you find an error or improve anything — whether in the config or in the
 Work fine, thanks to CPU friend and CPU FriendFriend, Patched to 0.8 Ghz (Min) - 2.4 Ghz (Max)
 Using CPU Friend data provider on lowest power consumsion.
 For me, no serious Performance Effect on this setting<br>
-Great for Daily usage, such as office, sone video editing, graphic design, some multitask, of course browsing.
+Great for Daily usage, such as office, sone video editing, graphic design, some multitask, of course browsing.<br>
+on the efi, i insert the `Performance profile` as default<br>
 if you want to change the power setting,<br>
 i will give the further assistance on the "other tweaks" section
 
-### 
+### Battery 
 
+The battery presentage is function normally
+
+### USB
+
+USB Ports Patching with USBMap.kext , everything works fine, no serious issue with USB
+
+### Ethernet
+
+Functioning normally. thanks to 'IntelMausi.kext'
 </details>
