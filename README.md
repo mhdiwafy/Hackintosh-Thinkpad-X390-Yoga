@@ -13,6 +13,7 @@ Should you find an error or improve anything — whether in the config or in the
 - [Device Information](#Device-Information)
 - [Whats working](#Whats-working)
     - [CPU](#CPU-🧠)
+  
 
 </details>
 
